@@ -1,6 +1,5 @@
 FROM alpine:3.15 AS downloader
 ARG TEMPLATE_REPO=""
-VOLUME /web
 RUN apk add git \
     && git clone ${TEMPLATE_REPO} /tmp
 
