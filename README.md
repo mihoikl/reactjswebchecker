@@ -16,14 +16,14 @@ docker run -p 8080:80 react-web-checker
 
 **Dockerfile**
 
-1. Downloader (Имя этапа: downloader)
+1. Downloader
 Базовый образ Alpine Linux.
 Клонирует указанный репозиторий Git в директорию /tmp.
 2. React Builder
 Базовый образ Node.js 14.
 Копирует содержимое из этапа "downloader" в директорию /app.
 Устанавливает зависимости и собирает приложение React.
-3. Production (Nginx)
+3. Production
 Базовый образ Nginx.
 Копирует результат сборки из этапа "react_builder" в директорию HTML Nginx.
 Копирует файл конфигурации Nginx.
