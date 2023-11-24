@@ -29,8 +29,6 @@ docker run -p 8080:80 react-web-checker
 Копирует файл конфигурации Nginx.
 Открывает порт 80 для доступа к веб-приложению.
 
-docker build -t react-web-checker --build-arg TEMPLATE_REPO=https://your-repo.git .
-
 Файл конфигурации Nginx находится в файле nginx.conf. Измените его по мере необходимости.
 
 Сборка работает и была проверено лично мной:
