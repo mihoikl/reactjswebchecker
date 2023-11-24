@@ -31,7 +31,7 @@ docker run -p 8080:80 react-web-checker
 
 Файл конфигурации Nginx находится в файле nginx.conf. Измените его по мере необходимости.
 
-Сборка работает и была проверено лично мной:
+Сборка работает и была проверена лично мной:
 ![image](https://github.com/mihoikl/reactjswebchecker/assets/20790438/b943054d-3376-4b16-8adf-cd153937c2bd)
 ![image](https://github.com/mihoikl/reactjswebchecker/assets/20790438/454234f9-74a0-4165-898d-e6e79a546538)
 ![image](https://github.com/mihoikl/reactjswebchecker/assets/20790438/2bb0afe2-2b36-43f9-b612-30b31673c4d6)
